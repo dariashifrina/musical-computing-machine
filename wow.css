@@ -1,0 +1,27 @@
+ @font-face {
+    font-family: myFirstFont;
+    src: url('bedtime_stories.ttf');
+}
+
+h1{
+    font-size: 500%;
+    color: red
+}
+h2{
+    color: yellow;
+}
+ul, li{
+    color: orange;
+}
+body {
+  animation: blinker 1s linear infinite;
+  font-family: myFirstFont;
+  color: green;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em; 
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
